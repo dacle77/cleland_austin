@@ -1,0 +1,20 @@
+<html>
+    <head>
+       <title>Form Test Index</title>
+    </head>
+    
+    <body>
+      <h1>Index Page</h1>
+      <h3>Create a User</h3>
+
+      <form action='/users' method='post'>
+          Name: <input type='text' name='name'><br>
+          Belt: <input type='text' name='belt'><br>
+          LangPref: <input type='text' name='langPref'><br>
+          Email: <input type='text' name='email'><br><br>
+          <input type='submit' value='create user'>
+          <input type='submit' name="test" value="{{form_name}}">
+      </form>
+    
+    </body>
+</html>
